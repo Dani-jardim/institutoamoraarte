@@ -1,0 +1,95 @@
+#containerAmora h1,  #containerAmora h2,
+#containerAmora h3,  #containerAmora h4,
+#containerAmora h5,	#containerAmora figure,
+#containerAmora p, 	#containerAmora article,
+#containerAmora a, 	#containerAmora span,
+#containerAmora div,#containerAmora section,
+#containerAmora img,#containerAmora label,
+#containerAmora dl,	#containerAmora dt,
+#containerAmora ul,	#containerAmora li{padding:0;margin:0;display:block;border:0;outline:0;vertical-align:baseline;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;color:inherit;box-sizing: unset;}
+#containerAmora h1, #containerAmora h2, #containerAmora h3, #containerAmora p {float:left; position:relative; text-align:center; width:100%; margin:0; z-index:99;}
+#containerAmora img{-khtml-user-select: none;-o-user-select: none;-moz-user-select: none;-webkit-user-select: none;user-select: none;}
+
+#containerAmora{background-color:#FFFFFF;color:#000000;text-rendering:optimizeLegibility !important;-webkit-font-smoothing:antialiased !important;-moz-osx-font-smoothing: grayscale;float:left;position:relative;margin:0 auto;padding:0;width:100%;overflow:hidden;}
+
+#containerAmora .clearAmora{clear:both;}
+#containerAmora .bloco01Amora {float:left;position:relative;margin:0;padding:0;width:100%;font-family:'familia01Isee',Verdadana,Helvetica;font-weight:normal;font-size:1.302vw;line-height:1.563vw;}
+
+@media screen and (min-width: 781px) {
+	#containerAmora .icol-desk-00 {display:none;}
+	#containerAmora .icol-desk-01, #containerAmora .icol-desk-02, #containerAmora .icol-desk-03, #containerAmora .icol-desk-04, #containerAmora .icol-desk-05, #containerAmora .icol-desk-06, #containerAmora .icol-desk-07, #containerAmora .icol-desk-08, #containerAmora .icol-desk-09, #containerAmora .icol-desk-10, #containerAmora .icol-desk-11, #containerAmora .icol-desk-12, #containerAmora .icol-desk-13, #containerAmora .icol-desk-14, #containerAmora .icol-desk-15, #containerAmora .icol-desk-16, #containerAmora .icol-desk-17, #containerAmora .icol-desk-18, #containerAmora .icol-desk-19, #containerAmora .icol-desk-20, #containerAmora .icol-desk-21, #containerAmora .icol-desk-22, #containerAmora .icol-desk-23, #containerAmora .icol-desk-24 {float:left;position:relative;box-sizing:border-box;padding-left:0.4%;padding-right:0.4%;z-index:555;}
+	#containerAmora .icol-desk-01 {width:4.16666667%;}
+	#containerAmora .icol-desk-02 {width:8.33333333%;}
+	#containerAmora .icol-desk-03 {width:12.5%;}
+	#containerAmora .icol-desk-04 {width:16.66666667%;}
+	#containerAmora .icol-desk-05 {width:20.83333333%;}
+	#containerAmora .icol-desk-06 {width:25%;}
+	#containerAmora .icol-desk-07 {width:29.16666667%;}
+	#containerAmora .icol-desk-08 {width:33.33333333%;}
+	#containerAmora .icol-desk-09 {width:37.5%;}
+	#containerAmora .icol-desk-10 {width:41.66666667%;}
+	#containerAmora .icol-desk-11 {width:45.83333333%;}
+	#containerAmora .icol-desk-12 {width:50%;}
+	#containerAmora .icol-desk-13 {width:54.16666667%;}
+	#containerAmora .icol-desk-14 {width:58.33333333%;}
+	#containerAmora .icol-desk-15 {width:62.5%;}
+	#containerAmora .icol-desk-16 {width:66.66666667%;}
+	#containerAmora .icol-desk-17 {width:70.83333333%;}
+	#containerAmora .icol-desk-18 {width:75%;}
+	#containerAmora .icol-desk-19 {width:79.16666667%;}
+	#containerAmora .icol-desk-20 {width:83.33333333%;}
+	#containerAmora .icol-desk-21 {width:87.5%;}
+	#containerAmora .icol-desk-22 {width:91.66666667%;}
+	#containerAmora .icol-desk-23 {width:95.83333333%;}
+	#containerAmora .icol-desk-24 {width:100%;}
+	#containerAmora .icol-desk-offset-01 {margin-left:4.16666667%;}
+	#containerAmora .icol-desk-offset-02 {margin-left:8.33333333%;}
+	#containerAmora .icol-desk-offset-03 {margin-left:12.5%;}
+	#containerAmora .icol-desk-offset-04 {margin-left:16.66666667%;}
+	#containerAmora .icol-desk-offset-05 {margin-left:20.83333333%;}
+	#containerAmora .icol-desk-offset-06 {margin-left:25%;}
+	#containerAmora .icol-desk-offset-07 {margin-left:29.16666667%;}
+	#containerAmora .icol-desk-offset-08 {margin-left:33.33333333%;}
+	#containerAmora .icol-desk-offset-09 {margin-left:37.5%;}
+	#containerAmora .icol-desk-offset-10 {margin-left:41.66666667%;}
+	#containerAmora .icol-desk-offset-11 {margin-left:45.83333333%;}
+	#containerAmora .icol-desk-offset-12 {margin-left:50%;}
+	#containerAmora .icol-desk-offset-13 {margin-left:54.16666667%;}
+	#containerAmora .icol-desk-offset-14 {margin-left:58.33333333%;}
+	#containerAmora .icol-desk-offset-15 {margin-left:62.5%;}
+	#containerAmora .icol-desk-offset-16 {margin-left:66.66666667%;}
+	#containerAmora .icol-desk-offset-17 {margin-left:70.83333333%;}
+	#containerAmora .icol-desk-offset-18 {margin-left:75%;}
+	#containerAmora .icol-desk-offset-19 {margin-left:79.16666667%;}
+	#containerAmora .icol-desk-offset-20 {margin-left:83.33333333%;}
+	#containerAmora .icol-desk-offset-21 {margin-left:87.5%;}
+	#containerAmora .icol-desk-offset-22 {margin-left:91.66666667%;}
+	#containerAmora .icol-desk-offset-23 {margin-left:95.83333333%;}
+}
+@media screen and (max-width: 780px) { 
+	#containerAmora .icol-mb-00 {display:none !important;}
+	#containerAmora .icol-mb-01, #containerAmora .icol-mb-02, #containerAmora .icol-mb-03, #containerAmora .icol-mb-04, #containerAmora .icol-mb-05, #containerAmora .icol-mb-06, #containerAmora .icol-mb-07, #containerAmora .icol-mb-08, #containerAmora .icol-mb-09, #containerAmora .icol-mb-10, #containerAmora .icol-mb-11, #containerAmora .icol-mb-12 {float:left;position:relative;box-sizing:border-box;padding-left:0,3%;padding-right:0,3%;z-index:999;}
+	#containerAmora .icol-mb-01 {width:8.33333333%;}
+	#containerAmora .icol-mb-02 {width:16.66666667%;}
+	#containerAmora .icol-mb-03 {width:25%;}
+	#containerAmora .icol-mb-04 {width:33.33333333%;}
+	#containerAmora .icol-mb-05 {width:41.66666667%;}
+	#containerAmora .icol-mb-06 {width:50%;}
+	#containerAmora .icol-mb-07 {width:58.33333333%;}
+	#containerAmora .icol-mb-08 {width:66.66666667%;}
+	#containerAmora .icol-mb-09 {width:75%;}
+	#containerAmora .icol-mb-10 {width:83.33333333%;}
+	#containerAmora .icol-mb-11 {width:91.66666667%;}
+	#containerAmora .icol-mb-12 {width:100%;}
+	#containerAmora .icol-mb-offset-01 {margin-left:8.33333333%;}
+	#containerAmora .icol-mb-offset-02 {margin-left:16.66666667%;}
+	#containerAmora .icol-mb-offset-03 {margin-left:25%;}
+	#containerAmora .icol-mb-offset-04 {margin-left:33.33333333%;}
+	#containerAmora .icol-mb-offset-05 {margin-left:41.66666667%;}
+	#containerAmora .icol-mb-offset-06 {margin-left:50%;}
+	#containerAmora .icol-mb-offset-07 {margin-left:58.33333333%;}
+	#containerAmora .icol-mb-offset-08 {margin-left:66.66666667%;}
+	#containerAmora .icol-mb-offset-09 {margin-left:75%;}
+	#containerAmora .icol-mb-offset-10 {margin-left:83.33333333%;}
+	#containerAmora .icol-mb-offset-11 {margin-left:91.66666667%;}
+}

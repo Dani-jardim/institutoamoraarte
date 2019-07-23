@@ -95,7 +95,7 @@ body{margin: 0;padding:0 }
 	#containerAmora > #bloco02Amora p {font-family: 'Roboto Slab', serif;color:#fff;text-align:center;font-size: 3.8vw;line-height:5vw;margin-top:10vw;  }
 
 
-	#containerAmora > #bloco03Amora {height:451.795vw;}
+	#containerAmora > #bloco03Amora {height:325.795vw;}
 	#containerAmora > #bloco03Amora {background-image:url("../img/amora_bloco03_mb.jpg");background-repeat:repeat;background-position:left top;background-color:#FFFFFF;background-size:cover;}
 	#containerAmora > #bloco03Amora p {margin-bottom:5vw;font-family: 'Roboto Slab', serif;color:#000;text-align:center;font-size: 3.5vw;line-height:4.2vw; margin-top:30vw;  }
 	#containerAmora > #bloco03Amora .contenthover h5 {margin:6vw; color:#fff; font-size:3.5vw; line-height:5vw; font-family: 'Roboto Slab', serif;}

@@ -32,7 +32,7 @@ body{margin: 0;padding:0 }
 	#containerAmora > #bloco03Amora .panel {padding: 0 18px;background-color: white;max-height: 0;overflow: hidden;transition: max-height 0.2s ease-out;}
 	#containerAmora > #bloco03Amora .botao {width:100%; border-radius:0.6vw; padding: 1vw; text-align:center; font-family: 'Roboto Slab', serif;color:#fff;font-size: 1.4vw;line-height:2.2vw;margin-top:2vw; margin-bottom:2vw;background-color: #430038;}
 	#containerAmora > #bloco03Amora .botao:hover{background-color:#00fe2a; color:#000;}
-	#containerAmora > #bloco03Amora h3 { text-align:right; font-family: 'Roboto Slab', serif; font-weight:bold; color:#430038;font-size: 2vw;line-height:0vw;margin-top:2vw; margin-bottom:2vw;}
+	#containerAmora > #bloco03Amora h3 { text-align:right; font-family: 'Roboto Slab', serif; font-weight:bold; color:#430038;font-size: 2vw;line-height:0vw;margin-top:20vw; margin-bottom:2vw;}
 	#containerAmora > #bloco03Amora h3:before{content: "";display: inline-block;vertical-align: middle;margin-right:1vw;border-top: 1vw solid transparent;border-bottom: 1vw solid transparent; border-right: 1vw solid #430038; }
 	#containerAmora > #bloco03Amora h3:hover{opacity:0.7}
 	#containerAmora > #bloco03Amora strong.atencao{color:red}

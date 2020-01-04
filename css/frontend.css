@@ -32,8 +32,8 @@ body{margin: 0;padding:0 }
 	#containerAmora > #bloco02Amora .logoAbenaf{width:22.156vw;height:10vw; margin-top:7.396vw; background-image:url("../img/logo_abenaf.png");background-repeat:no-repeat;background-position:left top;background-color:transparent;background-size:cover;}
 	#containerAmora > #bloco02Amora p {font-family: 'Roboto Slab', serif;color:#fff;text-align:left;font-size: 1.5vw;line-height:2.2vw;margin-top: 2vw;  }
 
-	#containerAmora > #bloco03Amora {height:79.844vw;}
-	#containerAmora > #bloco03Amora	{background-image:url("../img/amora_bloco03.jpg");background-repeat:repeat;background-position:left top;background-color:#FFFFFF;background-size:cover;}
+	#containerAmora > #bloco03Amora {height:112.844vw;}
+	#containerAmora > #bloco03Amora	{background-image:url("../img/amora_bloco03_mb.jpg");background-repeat:no-repeat;background-position:center top;background-color:#FFFFFF;background-size:50%;}
 	#containerAmora > #bloco03Amora p {margin-bottom:5vw;font-family: 'Roboto Slab', serif;color:#000;text-align:center;font-size: 1.5vw;line-height:2.2vw; margin-top:13vw;  }
 	#containerAmora > #bloco03Amora .contenthover h5 {margin:2vw; color:#fff; font-size:1vw;font-family: 'Roboto Slab', serif;line-height:2vw; }
 	#containerAmora > #bloco03Amora .contenthover h3 {}
@@ -74,7 +74,7 @@ body{margin: 0;padding:0 }
 
 	#containerAmora > #bloco01Amora {height:114.359vw;}
 	#containerAmora > #bloco01Amora{background-image:url("../img/amora_bloco01_mb.jpg");background-repeat:repeat;background-position:left top;background-color:#FFFFFF;background-size:cover;}
-	#containerAmora > #bloco01Amora .logoAmora {margin-top:3vw;background-image: url(../img/logo_amora.png);background-repeat: no-repeat;background-position: left top;background-color: transparent;background-size: contain;width: 53vw;height: 54vw;animation: pulse 2s infinite;}
+	#containerAmora > #bloco01Amora .logoAmora {margin-top:20vw;background-image: url(../img/logo_amora.png);background-repeat: no-repeat;background-position: left top;background-color: transparent;background-size: contain;width: 53vw;height: 54vw;animation: pulse 2s infinite;}
 	#containerAmora > #bloco01Amora .homemAmora { background-image: url(../img/homem.png);background-repeat: no-repeat;background-color: transparent;background-size: cover;width: 42.417vw;height: 75.75vw;animation: bounceInLeft 2s;margin-left: 1vw;margin-top: 48vw;position: absolute;}
 	#containerAmora > #bloco01Amora a {padding-left:0.9vw; float: left; text-decoration:none;}
 	#containerAmora > #bloco01Amora a:hover {opacity:0.77; }
@@ -100,8 +100,8 @@ body{margin: 0;padding:0 }
 	#containerAmora > #bloco02Amora p {font-family: 'Roboto Slab', serif;color:#fff;text-align:center;font-size: 3.8vw;line-height:5vw;margin-top:10vw;  }
 
 
-	#containerAmora > #bloco03Amora {height:325.795vw;}
-	#containerAmora > #bloco03Amora {background-image:url("../img/amora_bloco03_mb.jpg");background-repeat:repeat;background-position:left top;background-color:#FFFFFF;background-size:cover;}
+	#containerAmora > #bloco03Amora {height:425.795vw;}
+	#containerAmora > #bloco03Amora {background-image:url("../img/amora_bloco03_mb.jpg");background-repeat:no-repeat;background-position:left top;background-color:#FFFFFF;background-size:contain;}
 	#containerAmora > #bloco03Amora p {margin-bottom:5vw;font-family: 'Roboto Slab', serif;color:#000;text-align:center;font-size: 3.5vw;line-height:4.2vw; margin-top:30vw;  }
 	#containerAmora > #bloco03Amora .contenthover h5 {margin:6vw; color:#fff; font-size:3.5vw; line-height:5vw; font-family: 'Roboto Slab', serif;}
 	#containerAmora > #bloco03Amora .contenthover h3 {}

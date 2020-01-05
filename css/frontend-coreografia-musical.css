@@ -82,7 +82,7 @@ body{margin: 0;padding:0 }
 	#containerAmora > #bloco02Amora p {font-family: 'Roboto Slab', serif;color:#fff;text-align:left;font-size: 1.5vw;line-height:2.2vw;margin-top: 2vw; }
 	
 
-	#containerAmora > #bloco03Amora {height:251.282vw;}
+	#containerAmora > #bloco03Amora {height:381.282vw;}
 	#containerAmora > #bloco03Amora{background-image:url("../img/amora_coreografia-musical_bloco03.jpg");background-repeat:no-repeat;background-position:left top;background-color:#FFFFFF;background-size:contain;}
 	#containerAmora > #bloco03Amora p {padding: 1vw; font-family: 'Roboto Slab', serif;color:#000;text-align:left;font-size:2.5vw;line-height:4vw;margin-top:0vw; }
 	#containerAmora > #bloco03Amora h2 {font-family: 'Roboto Slab', serif;color:#000;text-align:left;font-size: 3.4vw;line-height:5.3vw;margin-top:15vw; margin-bottom:2vw;  }

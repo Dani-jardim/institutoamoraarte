@@ -1,15 +1,15 @@
 @media screen and (min-width: 781px) {
-    #containerAmora>#bloco01Amora {
+    #containerAmora>amora-header>#bloco01Amora {
         height: 33.385vw;
     }
-    #containerAmora>#bloco01Amora {
+    #containerAmora>amora-header>#bloco01Amora {
         background-image: url("../img/amora_bloco01.jpg");
         background-repeat: repeat;
         background-position: left top;
         background-color: #FFFFFF;
         background-size: cover;
     }
-    #containerAmora>#bloco01Amora .logoAmora {
+    #containerAmora>amora-header>#bloco01Amora .logoAmora {
         margin-top: 1vw;
         background-image: url("../img/logo_amora.png");
         background-repeat: repeat;
@@ -20,7 +20,7 @@
         height: 16vw;
         animation: pulse 2s infinite;
     }
-    #containerAmora>#bloco01Amora .homemAmora {
+    #containerAmora>amora-header>#bloco01Amora .homemAmora {
         margin-top: 6vw;
         background-image: url(../img/homem.png);
         background-repeat: no-repeat;
@@ -33,19 +33,19 @@
         margin-top: 4vw;
         position: absolute;
     }
-    #containerAmora>#bloco01Amora div.redesSociais {
+    #containerAmora>amora-header>#bloco01Amora div.redesSociais {
         margin-top: 3vw;
         float: left;
     }
-    #containerAmora>#bloco01Amora a {
+    #containerAmora>amora-header>#bloco01Amora a {
         padding-left: 0.9vw;
         float: left;
         text-decoration: none;
     }
-    #containerAmora>#bloco01Amora a:hover {
+    #containerAmora>amora-header>#bloco01Amora a:hover {
         opacity: 0.77;
     }
-    #containerAmora>#bloco01Amora button {
+    #containerAmora>amora-header>#bloco01Amora button {
         margin-top: 1vw;
         margin-left: 0vw;
         background-color: #570746;
@@ -60,14 +60,14 @@
         font-weight: 900;
         line-height: 0vw;
     }
-    #containerAmora>#bloco01Amora p {
+    #containerAmora>amora-header>#bloco01Amora p {
         font-size: 1.2vw;
         text-align: center;
         font-family: 'Roboto', sans-serif;
         font-weight: 900;
         line-height: 0vw;
     }
-    #containerAmora>#bloco01Amora h4 {
+    #containerAmora>amora-header>#bloco01Amora h4 {
         font-size: 1.2vw;
         text-align: center;
         font-family: 'Roboto', sans-serif;
@@ -75,17 +75,17 @@
 }
 
 @media screen and (max-width: 780px) {
-    #containerAmora>#bloco01Amora {
+    #containerAmora>amora-header>#bloco01Amora {
         height: 114.359vw;
     }
-    #containerAmora>#bloco01Amora {
+    #containerAmora>amora-header>#bloco01Amora {
         background-image: url("../img/amora_bloco01_mb.jpg");
         background-repeat: repeat;
         background-position: left top;
         background-color: #FFFFFF;
         background-size: cover;
     }
-    #containerAmora>#bloco01Amora .logoAmora {
+    #containerAmora>amora-header>#bloco01Amora .logoAmora {
         margin-top: 20vw;
         background-image: url(../img/logo_amora.png);
         background-repeat: no-repeat;
@@ -96,7 +96,7 @@
         height: 54vw;
         animation: pulse 2s infinite;
     }
-    #containerAmora>#bloco01Amora .homemAmora {
+    #containerAmora>amora-header>#bloco01Amora .homemAmora {
         background-image: url(../img/homem.png);
         background-repeat: no-repeat;
         background-color: transparent;
@@ -108,24 +108,24 @@
         margin-top: 48vw;
         position: absolute;
     }
-    #containerAmora>#bloco01Amora a {
+    #containerAmora>amora-header>#bloco01Amora a {
         padding-left: 0.9vw;
         float: left;
         text-decoration: none;
     }
-    #containerAmora>#bloco01Amora a:hover {
+    #containerAmora>amora-header>#bloco01Amora a:hover {
         opacity: 0.77;
     }
-    #containerAmora>#bloco01Amora img {
+    #containerAmora>amora-header>#bloco01Amora img {
         width: 4vw;
         height: 4vw;
         margin-top: 8vw;
     }
-    #containerAmora>#bloco01Amora .you {
+    #containerAmora>amora-header>#bloco01Amora .you {
         width: 6vw;
         height: 4vw;
     }
-    #containerAmora>#bloco01Amora button {
+    #containerAmora>amora-header>#bloco01Amora button {
         margin-top: 1vw;
         background-color: #570746;
         color: #fff;
@@ -139,7 +139,7 @@
         font-family: 'Roboto', sans-serif;
         font-weight: 900;
     }
-    #containerAmora>#bloco01Amora p {
+    #containerAmora>amora-header>#bloco01Amora p {
         margin-left: 1vw;
         font-size: 3.2vw;
         text-align: center;
@@ -147,7 +147,7 @@
         font-weight: 900;
         line-height: 0vw;
     }
-    #containerAmora>#bloco01Amora h4 {
+    #containerAmora>amora-header>#bloco01Amora h4 {
         margin: 1vw;
         font-size: 4vw;
         text-align: center;

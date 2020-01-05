@@ -10,7 +10,7 @@
 
     <link rel="stylesheet" href="css/grid.css" type="text/css" />
     <link rel="stylesheet" href="css/frontend.css" type="text/css" />
-    <link rel="stylesheet" href="css/header-amora.css" type="text/css" />
+    <link rel="stylesheet" href="header/header-amora.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -18,19 +18,7 @@
 
     <div id="containerAmora">
 
-        <div class="blocoAmora" id="bloco01Amora">
-            <div class="redesSociais icol-desk-offset-20 icol-desk-04 icol-mb-offset-09 icol-mb-03">
-                <a href="https://www.instagram.com/abenaf_institutoamoraarte/" target="_blank"><img border="0" alt="instagram" src="img/icon_instagram.png" width="25" height="25"></a>
-                <a href="https://www.facebook.com/abenaf.org/" target="_blank"><img border="0" alt="facebook" src="img/icon_facebook.png" width="25" height="25"></a>
-                <a href="https://www.youtube.com/user/Pontodeculturaabenaf" target="_blank"><img class="you" border="0" alt="youtube" src="img/icon_youtube.png" width="33" height="25"></a>
-            </div>
-
-            <div class="logoAmora icol-desk-offset-09 icol-desk-07 icol-mb-offset-03 icol-mb-06" alt="Instituto Amora Arte"></div>
-
-            <!-- <div class="icol-desk-offset-01 icol-desk-04 icol-mb-offset-02 icol-mb-08 debito clearAmora"><h4>Não conseguiu efetuar o pagamento da taxa?</h4>
-				<button class="botao icol-desk-offset-03 icol-desk-19 icol-mb-offset-03 icol-mb-05"><a href="https://inscricoes-amora-arte.herokuapp.com/pessoas/buscar_inscricao">Tentar novamente</a></button>
-			</div> -->
-        </div>
+        <amora-header></amora-header>
 
         <div class="blocoAmora" id="bloco02Amora">
             <h2 class="icol-desk-offset-06 icol-desk-0 icol-mb-offset-02 icol-mb-08">Transformação através do amor a arte</h2>
@@ -127,6 +115,8 @@
             <p class="legenda icol-desk-offset-04 icol-desk-16 icol-mb-offset-02 icol-mb-08"><i>Fotos: Bruno Gois, Charlie Raymundo, Daniela Jardim, Rosa Gregório, Jeffferson Twister e Mauro de Oliveira</i></p>
 
             <h5 class="icol-desk-offset-02 icol-desk-20 icol-mb-offset-02 icol-mb-08">As nossas aulas serão ministradas na Escola do Toufic Joulian<a href="https://www.google.com/maps/dir//toufic+maps/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x94cf01e913a31a95:0x16ff5ba6107a317a?ved=2ahUKEwi_2ZDGnN_fAhVHC5AKHW1HAAkQ9RcwEXoECAYQEA" target="_blank">Veja como chegar</a></h5>
+
+            <script src="header/header.js"></script>
 
             <script>
                 $('#demo').contenthover({

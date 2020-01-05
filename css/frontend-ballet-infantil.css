@@ -1,185 +1,633 @@
-
-
-body{margin: 0;padding:0 }
+body {
+    margin: 0;
+    padding: 0
+}
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,900');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
-
 @media screen and (min-width: 781px) {
-	#containerAmora .txt01Isee{font-family:'familia01Isee',Verdadana,Arial,Helvetica;font-size:3.906vw;line-height:4.688vw;font-weight:bold;}
-
-	#containerAmora > #bloco01Amora {height:35.677vw;}
-	#containerAmora > #bloco01Amora{background-image:url("../img/amora_inscricoes_bloco01.jpg");background-repeat:repeat;background-position:left top;background-color:#FFFFFF;background-size:cover;}
-	#containerAmora > #bloco01Amora .logoAmora {margin-top:1vw; background-image:url("../img/logo_amora.png");background-repeat:repeat;background-position:left top;background-color:transparent;background-size:cover; width:17vw;height:16vw; animation:pulse 2s infinite;}
-	#containerAmora > #bloco01Amora .homemAmora { background-image: url(../img/homem_inscricoes.png);background-repeat: no-repeat;background-color: transparent;background-size: cover;width:26.417vw;height:28.75vw; animation:bounceInLeft 2s; margin-left:9vw;margin-top:4vw;position: absolute;}
-	#containerAmora > #bloco01Amora div.redesSociais{margin-top:3vw; float: left;}
-	#containerAmora > #bloco01Amora a {padding-left:0.9vw; float: left; }
-	#containerAmora > #bloco01Amora a:hover {opacity:0.77; }
-
-	#containerAmora > #bloco02Amora {height:42.177vw;}
-	#containerAmora > #bloco02Amora{background-image:url("../img/capa_paginas_curso_ballet.png");background-repeat:repeat;background-position:left top;background-color:#FFFFFF;background-size:cover;}
-	#containerAmora > #bloco02Amora h2 {font-family: 'Roboto', sans-serif;font-weight:900;color:#fff;font-size:2.5vw;text-align:left;margin-top:3vw; }
-	#containerAmora > #bloco02Amora .logoAbenaf{width:22.156vw;height:10vw; margin-top:7.396vw; background-image:url("../img/logo_abenaf.png");background-repeat:no-repeat;background-position:left top;background-color:transparent;background-size:cover;}
-	#containerAmora > #bloco02Amora p {font-family: 'Roboto Slab', serif;color:#fff;text-align:left;font-size: 1.5vw;line-height:2.2vw;margin-top: 2vw; }
-	
-	#containerAmora > #bloco03Amora {height:120.208vw;}
-	#containerAmora > #bloco03Amora{background-image:url("../img/amora_ballet_bloco03.png");background-repeat:no-repeat;background-position:left top;background-color:#FFFFFF;background-size:contain;}
-	#containerAmora > #bloco03Amora p {padding: 1vw; font-family: 'Roboto Slab', serif;color:#000;text-align:left;font-size: 1vw;line-height:1.5vw;margin-top:0vw; }
-	#containerAmora > #tituloBloco03 {padding-left: 35%; padding-right: 10%;height: 10%}
-	#containerAmora > #tituloBloco03 h1 {margin-top: 6%;font-family: 'Roboto Slab', serif;font-weight: bolder;font-size: revert;color: #770055;}
-	#containerAmora > #bloco03Amora h2 {font-family: 'Roboto Slab', serif;color:#000;text-align:left;font-size: 1.4vw;line-height:2.2vw;margin-top:13vw; margin-bottom:2vw;  }
-	#containerAmora > #bloco03Amora .accordion {background-color: #eee;color: #444;cursor: pointer;padding: 1vw;width: 100%;border: none;text-align: left;outline: none;font-size:1vw;transition: 0.4s;font-family: 'Roboto Slab', serif;font-weight:900;}
-	#containerAmora > #bloco03Amora .active, .accordion:hover {background-color: #ccc;}
-	#containerAmora > #bloco03Amora .accordion:after {content: '\002B';color: #777;font-weight: bold;float: right;margin-left: 5px;}
-	#containerAmora > #bloco03Amora .active:after {content: "\2212"}
-	#containerAmora > #bloco03Amora .panel {padding: 0 18px;background-color: white;max-height: 0;overflow: hidden;transition: max-height 0.2s ease-out;}
-	#containerAmora > #bloco03Amora .botao {width:100%; border-radius:0.6vw; padding: 1vw; text-align:center; font-family: 'Roboto Slab', serif;color:#fff;font-size: 1.4vw;line-height:2.2vw;margin-top:28vw; margin-bottom:2vw;background-color: #430038;}
-	#containerAmora > #bloco03Amora .botao:hover{background-color:#00fe2a; color:#000;}
-	#containerAmora > #bloco03Amora h3 { text-align:right; font-family: 'Roboto Slab', serif; font-weight:bold; color:#430038;font-size: 2vw;line-height:0vw;margin-top:25vw; margin-bottom:2vw;}
-	#containerAmora > #bloco03Amora h3:before{content: "";display: inline-block;vertical-align: middle;margin-right:1vw;border-top: 1vw solid transparent;border-bottom: 1vw solid transparent; border-right: 1vw solid #430038; }
-	#containerAmora > #bloco03Amora h3:hover{opacity:0.7}
-	#containerAmora > .footerBloco03Amora{background-image:url("../img/footer_bloco3.png");background-repeat:no-repeat;background-position:left bottom;background-color:transparent;background-size:cover; height: 5%;}
-	#containerAmora > #bloco03Amora .professorResponsavel {margin-left: 43%;padding-top: 14.5%;color: #fff;}
-
-
-	#containerAmora > #bloco03Amora .icones.icone01 {width:2.760vw; height:2.760vw;background-image: url("../img/face-professor.png");background-size:contain;background-repeat:no-repeat;position: relative; top:19vw;left:37vw; }
-	#containerAmora > #bloco03Amora .icones.icone02 {width:2.760vw; height:2.760vw;background-image: url("../img/insta-professor.png");background-size:contain;background-repeat:no-repeat;position: relative; top:16.4vw;left:47vw; }
-	#containerAmora > #bloco03Amora .icones.icone03 {z-index:1000; width:2.760vw; height:2.760vw;background-image: url("../img/curriculo-professor.png");background-size:107%;background-repeat:no-repeat;position: relative; top:13.6vw;left:59vw; }
-	#containerAmora > #bloco03Amora p.icones_textos{font-size:0.9vw; line-height:2vw; margin-left:2.5vw;margin-top:0.5vw; font-family: 'Roboto Slab', serif;}
-	#containerAmora > #bloco03Amora p.icones_textos02{font-size:0.9vw; line-height:2vw; margin-left:2.5vw;margin-top:-1.5vw; font-family: 'Roboto Slab', serif;}
-	#containerAmora > #bloco03Amora p.icones_textos03{z-index:1000;font-size:0.9vw; line-height:2vw; margin-left:2.5vw;margin-top:-1.2vw; font-family: 'Roboto Slab', serif;}
-	
-	#containerAmora > #bloco04Amora {height:29vw;}
-	#containerAmora > #bloco04Amora{background-image:url("../img/amora_bloco04.jpg");background-repeat:repeat;background-position:left top;background-size:cover;}
-	#containerAmora > #bloco04Amora {color:#fff;}
-	#containerAmora > #bloco04Amora h2{font-size:1.5vw;line-height:4vw; border-bottom: .03vw solid #fff; color:#fff; text-align:left;margin-top:1vw; margin-bottom:2vw;font-family: 'Roboto Slab', serif;font-weight:bold; }
-	#containerAmora > #bloco04Amora a {text-decoration:none;line-height:0vw; font-size:1.2vw;}
-	#containerAmora > #bloco04Amora a:hover {text-decoration: underline;}
-	#containerAmora > #bloco04Amora p{ color:#fff; text-align:left;font-family: 'Roboto', sans-serif; font-size:1.2vw; line-height: 2vw; }
-	#containerAmora > #bloco04Amora h3{margin-top:3vw;font-family: 'Roboto', sans-serif; font-size: 0.8vw; }
-	#containerAmora > #bloco04Amora .redesRodape {margin-left:2vw;margin-top:-1vw;}
-	#containerAmora > #bloco04Amora a:hover {color:#90ff49;}
-	#containerAmora > #bloco03Amora  h5 {color:red; font-size:1vw;font-family: 'Roboto Slab', serif;margin-top:-5vw;text-align:center; }
-
-	#containerAmora > #bloco04Amora .logoFooter{margin-top:2vw; width:3vw; height:3vw; background-image:url("../img/logo_amora_footer.png");background-repeat:no-repeat;background-position:left top;background-color:transparent; background-size:contain; }
+    #containerAmora .txt01Isee {
+        font-family: 'familia01Isee', Verdadana, Arial, Helvetica;
+        font-size: 3.906vw;
+        line-height: 4.688vw;
+        font-weight: bold;
+    }
+    #containerAmora>#bloco02Amora {
+        height: 42.177vw;
+    }
+    #containerAmora>#bloco02Amora {
+        background-image: url("../img/capa_paginas_curso_ballet.png");
+        background-repeat: repeat;
+        background-position: left top;
+        background-color: #FFFFFF;
+        background-size: cover;
+    }
+    #containerAmora>#bloco02Amora h2 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        color: #fff;
+        font-size: 2.5vw;
+        text-align: left;
+        margin-top: 3vw;
+    }
+    #containerAmora>#bloco02Amora .logoAbenaf {
+        width: 22.156vw;
+        height: 10vw;
+        margin-top: 7.396vw;
+        background-image: url("../img/logo_abenaf.png");
+        background-repeat: no-repeat;
+        background-position: left top;
+        background-color: transparent;
+        background-size: cover;
+    }
+    #containerAmora>#bloco02Amora p {
+        font-family: 'Roboto Slab', serif;
+        color: #fff;
+        text-align: left;
+        font-size: 1.5vw;
+        line-height: 2.2vw;
+        margin-top: 2vw;
+    }
+    #containerAmora>#bloco03Amora {
+        height: 120.208vw;
+    }
+    #containerAmora>#bloco03Amora {
+        background-image: url("../img/amora_ballet_bloco03.png");
+        background-repeat: no-repeat;
+        background-position: left top;
+        background-color: #FFFFFF;
+        background-size: contain;
+    }
+    #containerAmora>#bloco03Amora p {
+        padding: 1vw;
+        font-family: 'Roboto Slab', serif;
+        color: #000;
+        text-align: left;
+        font-size: 1vw;
+        line-height: 1.5vw;
+        margin-top: 0vw;
+    }
+    #containerAmora>#tituloBloco03 {
+        padding-left: 35%;
+        padding-right: 10%;
+        height: 10%
+    }
+    #containerAmora>#tituloBloco03 h1 {
+        margin-top: 6%;
+        font-family: 'Roboto Slab', serif;
+        font-weight: bolder;
+        font-size: revert;
+        color: #770055;
+    }
+    #containerAmora>#bloco03Amora h2 {
+        font-family: 'Roboto Slab', serif;
+        color: #000;
+        text-align: left;
+        font-size: 1.4vw;
+        line-height: 2.2vw;
+        margin-top: 13vw;
+        margin-bottom: 2vw;
+    }
+    #containerAmora>#bloco03Amora .accordion {
+        background-color: #eee;
+        color: #444;
+        cursor: pointer;
+        padding: 1vw;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 1vw;
+        transition: 0.4s;
+        font-family: 'Roboto Slab', serif;
+        font-weight: 900;
+    }
+    #containerAmora>#bloco03Amora .active,
+    .accordion:hover {
+        background-color: #ccc;
+    }
+    #containerAmora>#bloco03Amora .accordion:after {
+        content: '\002B';
+        color: #777;
+        font-weight: bold;
+        float: right;
+        margin-left: 5px;
+    }
+    #containerAmora>#bloco03Amora .active:after {
+        content: "\2212"
+    }
+    #containerAmora>#bloco03Amora .panel {
+        padding: 0 18px;
+        background-color: white;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+    }
+    #containerAmora>#bloco03Amora .botao {
+        width: 100%;
+        border-radius: 0.6vw;
+        padding: 1vw;
+        text-align: center;
+        font-family: 'Roboto Slab', serif;
+        color: #fff;
+        font-size: 1.4vw;
+        line-height: 2.2vw;
+        margin-top: 28vw;
+        margin-bottom: 2vw;
+        background-color: #430038;
+    }
+    #containerAmora>#bloco03Amora .botao:hover {
+        background-color: #00fe2a;
+        color: #000;
+    }
+    #containerAmora>#bloco03Amora h3 {
+        text-align: right;
+        font-family: 'Roboto Slab', serif;
+        font-weight: bold;
+        color: #430038;
+        font-size: 2vw;
+        line-height: 0vw;
+        margin-top: 25vw;
+        margin-bottom: 2vw;
+    }
+    #containerAmora>#bloco03Amora h3:before {
+        content: "";
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 1vw;
+        border-top: 1vw solid transparent;
+        border-bottom: 1vw solid transparent;
+        border-right: 1vw solid #430038;
+    }
+    #containerAmora>#bloco03Amora h3:hover {
+        opacity: 0.7
+    }
+    #containerAmora>.footerBloco03Amora {
+        background-image: url("../img/footer_bloco3.png");
+        background-repeat: no-repeat;
+        background-position: left bottom;
+        background-color: transparent;
+        background-size: cover;
+        height: 5%;
+    }
+    #containerAmora>#bloco03Amora .professorResponsavel {
+        margin-left: 43%;
+        padding-top: 14.5%;
+        color: #fff;
+    }
+    #containerAmora>#bloco03Amora .icones.icone01 {
+        width: 2.760vw;
+        height: 2.760vw;
+        background-image: url("../img/face-professor.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+        top: 19vw;
+        left: 37vw;
+    }
+    #containerAmora>#bloco03Amora .icones.icone02 {
+        width: 2.760vw;
+        height: 2.760vw;
+        background-image: url("../img/insta-professor.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+        top: 16.4vw;
+        left: 47vw;
+    }
+    #containerAmora>#bloco03Amora .icones.icone03 {
+        z-index: 1000;
+        width: 2.760vw;
+        height: 2.760vw;
+        background-image: url("../img/curriculo-professor.png");
+        background-size: 107%;
+        background-repeat: no-repeat;
+        position: relative;
+        top: 13.6vw;
+        left: 59vw;
+    }
+    #containerAmora>#bloco03Amora p.icones_textos {
+        font-size: 0.9vw;
+        line-height: 2vw;
+        margin-left: 2.5vw;
+        margin-top: 0.5vw;
+        font-family: 'Roboto Slab', serif;
+    }
+    #containerAmora>#bloco03Amora p.icones_textos02 {
+        font-size: 0.9vw;
+        line-height: 2vw;
+        margin-left: 2.5vw;
+        margin-top: -1.5vw;
+        font-family: 'Roboto Slab', serif;
+    }
+    #containerAmora>#bloco03Amora p.icones_textos03 {
+        z-index: 1000;
+        font-size: 0.9vw;
+        line-height: 2vw;
+        margin-left: 2.5vw;
+        margin-top: -1.2vw;
+        font-family: 'Roboto Slab', serif;
+    }
+    #containerAmora>#bloco04Amora {
+        height: 29vw;
+    }
+    #containerAmora>#bloco04Amora {
+        background-image: url("../img/amora_bloco04.jpg");
+        background-repeat: repeat;
+        background-position: left top;
+        background-size: cover;
+    }
+    #containerAmora>#bloco04Amora {
+        color: #fff;
+    }
+    #containerAmora>#bloco04Amora h2 {
+        font-size: 1.5vw;
+        line-height: 4vw;
+        border-bottom: .03vw solid #fff;
+        color: #fff;
+        text-align: left;
+        margin-top: 1vw;
+        margin-bottom: 2vw;
+        font-family: 'Roboto Slab', serif;
+        font-weight: bold;
+    }
+    #containerAmora>#bloco04Amora a {
+        text-decoration: none;
+        line-height: 0vw;
+        font-size: 1.2vw;
+    }
+    #containerAmora>#bloco04Amora a:hover {
+        text-decoration: underline;
+    }
+    #containerAmora>#bloco04Amora p {
+        color: #fff;
+        text-align: left;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.2vw;
+        line-height: 2vw;
+    }
+    #containerAmora>#bloco04Amora h3 {
+        margin-top: 3vw;
+        font-family: 'Roboto', sans-serif;
+        font-size: 0.8vw;
+    }
+    #containerAmora>#bloco04Amora .redesRodape {
+        margin-left: 2vw;
+        margin-top: -1vw;
+    }
+    #containerAmora>#bloco04Amora a:hover {
+        color: #90ff49;
+    }
+    #containerAmora>#bloco03Amora h5 {
+        color: red;
+        font-size: 1vw;
+        font-family: 'Roboto Slab', serif;
+        margin-top: -5vw;
+        text-align: center;
+    }
+    #containerAmora>#bloco04Amora .logoFooter {
+        margin-top: 2vw;
+        width: 3vw;
+        height: 3vw;
+        background-image: url("../img/logo_amora_footer.png");
+        background-repeat: no-repeat;
+        background-position: left top;
+        background-color: transparent;
+        background-size: contain;
+    }
 }
 
 @media screen and (max-width: 780px) {
-
-
-	#containerAmora > #bloco01Amora {height:114.359vw;}
-	#containerAmora > #bloco01Amora{background-image:url("../img/amora_inscricoes_bloco01_mb.jpg");background-repeat:repeat;background-position:left top;background-color:#FFFFFF;background-size:cover;}
-	#containerAmora > #bloco01Amora .logoAmora {margin-top:20vw; background-image:url("../img/logo_amora.png");background-repeat:no-repeat;background-position:left top;background-color:transparent;background-size:contain; width:53vw;height:54vw; animation:pulse 2s infinite;}
-	#containerAmora > #bloco01Amora .homemAmora { background-image: url(../img/homem_inscricoes.png);background-repeat: no-repeat;background-color: transparent;background-size: cover;width: 57.417vw;height: 61.75vw;animation: bounceInLeft 2s;margin-left: 1vw;margin-top: 48vw;position: absolute;}
-	#containerAmora > #bloco01Amora a {padding-left:0.9vw; float: left; }
-	#containerAmora > #bloco01Amora a:hover {opacity:0.77; }
-	#containerAmora > #bloco01Amora img {width:4vw; height:4vw;margin-top:8vw; }
-	#containerAmora > #bloco01Amora .you {width:6vw; height:4vw; }
-
-	#containerAmora > #bloco02Amora {height:42vw}
-	#containerAmora > #bloco02Amora{background-image:url("../img/capa_paginas_curso_ballet.png");background-repeat:repeat;background-position:left top;background-color:#FFFFFF;background-size:cover;}
-	#containerAmora > #bloco02Amora h2 {font-family: 'Roboto', sans-serif;font-weight:900;color:#fff;font-size:2.5vw;text-align:left;margin-top:3vw; }
-	#containerAmora > #bloco02Amora .logoAbenaf{width:22.156vw;height:10vw; margin-top:7.396vw; background-image:url("../img/logo_abenaf.png");background-repeat:no-repeat;background-position:left top;background-color:transparent;background-size:cover;}
-	#containerAmora > #bloco02Amora p {font-family: 'Roboto Slab', serif;color:#fff;text-align:left;font-size: 1.5vw;line-height:2.2vw;margin-top: 2vw; }
-	
-
-	#containerAmora > #bloco03Amora {height:385.282vw;}
-	#containerAmora > #bloco03Amora {background-image:url("../img/amora_ballet_bloco03.png");background-repeat:no-repeat;background-position:left top;background-color:#FFFFFF;background-size:contain;}
-	#containerAmora > #tituloBloco03 {padding-left: 35%; padding-right: 10%; height:10%}
-	#containerAmora > #tituloBloco03 h1 {margin-top: 6%;font-family: 'Roboto Slab', serif;font-weight: bolder;font-size: medium;color: #770055;}
-	#containerAmora > #bloco03Amora p {padding: 1vw; font-family: 'Roboto Slab', serif;color:#000;text-align:left;font-size:2.5vw;line-height:4vw;margin-top:0vw; }
-	#containerAmora > #bloco03Amora h2 {font-family: 'Roboto Slab', serif;color:#000;text-align:left;font-size: 3.4vw;line-height:5.3vw;margin-top:13vw; margin-bottom:2vw;  }
-	#containerAmora > #bloco03Amora .accordion {background-color: #eee;color: #444;cursor: pointer;padding:2vw;width: 100%;border: none;text-align: left;outline: none;font-size:3vw;transition: 0.4s;font-family: 'Roboto Slab', serif;font-weight:900;}
-	#containerAmora > #bloco03Amora .active, .accordion:hover {background-color: #ccc;}
-	#containerAmora > #bloco03Amora .accordion:after {content: '\002B';color: #777;font-weight: bold;float: right;margin-left: 5px;}
-	#containerAmora > #bloco03Amora .active:after {content: "\2212"}
-	#containerAmora > #bloco03Amora .panel {padding: 0 18px;background-color: white;max-height: 0;overflow: hidden;transition: max-height 0.2s ease-out;}
-	#containerAmora > #bloco03Amora .botao {width:100%; border-radius:0.6vw; padding: 4vw; text-align:center; font-family: 'Roboto Slab', serif;color:#fff;font-size: 4vw;line-height:0vw;margin-top:2vw; margin-bottom:2vw;background-color: #430038;}
-	#containerAmora > #bloco03Amora .botao:hover{background-color:#00fe2a; color:#000;}
-	#containerAmora > #bloco03Amora h3 { text-align:right; font-family: 'Roboto Slab', serif; font-weight:bold; color:#430038;font-size:5vw;line-height:0vw;margin-top:2vw; margin-bottom:2vw;}
-	#containerAmora > #bloco03Amora h3:before{content: "";display: inline-block;vertical-align: middle;margin-right:1vw;border-top: 1vw solid transparent;border-bottom: 1vw solid transparent; border-right: 1vw solid #430038; }
-	#containerAmora > #bloco03Amora h3:hover{opacity:0.7}
-	#containerAmora > #bloco03Amora .conteudo h2{text-align:center;margin-top: 9vw; margin-bottom:7vw;}
-	#containerAmora > #bloco03Amora .professorResponsavel {margin-left: 40%;padding-top: 13%;color: #fff;font-size: xx-small;}
-	#containerAmora > #bloco03Amora .icones.icone01 {width:5vw; height:5vw;background-image: url("../img/face-professor.png");background-size:contain;background-repeat:no-repeat;position: relative; top:34vw;left:30vw; }
-	#containerAmora > #bloco03Amora .icones.icone02 {width:5vw; height:5vw;background-image: url("../img/insta-professor.png");background-size:contain;background-repeat:no-repeat;position: relative; top:29.4vw;left:50vw; }
-	#containerAmora > #bloco03Amora .icones.icone03 {z-index:1000; width:5vw; height:5.760vw;background-image: url("../img/curriculo-professor.png");background-size:107%;background-repeat:no-repeat;position: relative; top:24.6vw;left:72vw; }
-	#containerAmora > #bloco03Amora p.icones_textos{font-size:2vw; line-height:2vw; margin-left:5vw;margin-top:1.5vw; font-family: 'Roboto Slab', serif;}
-	#containerAmora > #bloco03Amora p.icones_textos02{font-size:2vw; line-height:2vw; margin-left:5vw;margin-top:1.3vw; font-family: 'Roboto Slab', serif;}
-	#containerAmora > #bloco03Amora p.icones_textos03{z-index:1000;font-size:2vw; line-height:2vw; margin-left:5vw;margin-top:1.2vw; font-family: 'Roboto Slab', serif;}
-	#containerAmora > .footerBloco03Amora{background-image:url("../img/footer_bloco3.png");background-repeat:no-repeat;background-position:left bottom;background-color:transparent;background-size:contain; height: 5%;}
-	
-	#containerAmora > #bloco04Amora {height:170.744vw;}
-	#containerAmora > #bloco04Amora{background-image:url("../img/amora_bloco04_mb.jpg");background-repeat:repeat;background-position:left top;background-size:cover;}
-	#containerAmora > #bloco04Amora {color:#fff;}
-	#containerAmora > #bloco04Amora h2{font-size:4vw;line-height:8vw; border-bottom: .03vw solid #fff; color:#fff; text-align:left;margin-top:9vw; margin-bottom:4vw;font-family: 'Roboto Slab', serif;font-weight:bold; }
-	#containerAmora > #bloco04Amora a {text-decoration:none;line-height:0vw; font-size:3.5vw; }
-	#containerAmora > #bloco04Amora a:hover {color:#90ff49;  }
-	#containerAmora > #bloco04Amora p{ color:#fff; text-align:left;font-family: 'Roboto', sans-serif; font-size:3.5vw; line-height:5vw; }
-	#containerAmora > #bloco04Amora h3{margin-top:8vw;font-family: 'Roboto', sans-serif; font-size: 1.8vw; }
-	#containerAmora > #bloco04Amora a:hover {color:#90ff49;  }
-	#containerAmora > #bloco04Amora .redesRodape {margin-left:6vw; margin-top:-2vw;}
-
-	#containerAmora > #bloco04Amora .logoFooter{margin-top:12vw; width:17vw; height:15vw; background-image:url("../img/logo_amora_footer.png");background-repeat:no-repeat;background-position:left top;background-color:transparent; background-size:contain; }
+    #containerAmora>#bloco02Amora {
+        height: 42vw
+    }
+    #containerAmora>#bloco02Amora {
+        background-image: url("../img/capa_paginas_curso_ballet.png");
+        background-repeat: repeat;
+        background-position: left top;
+        background-color: #FFFFFF;
+        background-size: cover;
+    }
+    #containerAmora>#bloco02Amora h2 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        color: #fff;
+        font-size: 2.5vw;
+        text-align: left;
+        margin-top: 3vw;
+    }
+    #containerAmora>#bloco02Amora .logoAbenaf {
+        width: 22.156vw;
+        height: 10vw;
+        margin-top: 7.396vw;
+        background-image: url("../img/logo_abenaf.png");
+        background-repeat: no-repeat;
+        background-position: left top;
+        background-color: transparent;
+        background-size: cover;
+    }
+    #containerAmora>#bloco02Amora p {
+        font-family: 'Roboto Slab', serif;
+        color: #fff;
+        text-align: left;
+        font-size: 1.5vw;
+        line-height: 2.2vw;
+        margin-top: 2vw;
+    }
+    #containerAmora>#bloco03Amora {
+        height: 385.282vw;
+    }
+    #containerAmora>#bloco03Amora {
+        background-image: url("../img/amora_ballet_bloco03.png");
+        background-repeat: no-repeat;
+        background-position: left top;
+        background-color: #FFFFFF;
+        background-size: contain;
+    }
+    #containerAmora>#tituloBloco03 {
+        padding-left: 35%;
+        padding-right: 10%;
+        height: 10%
+    }
+    #containerAmora>#tituloBloco03 h1 {
+        margin-top: 6%;
+        font-family: 'Roboto Slab', serif;
+        font-weight: bolder;
+        font-size: medium;
+        color: #770055;
+    }
+    #containerAmora>#bloco03Amora p {
+        padding: 1vw;
+        font-family: 'Roboto Slab', serif;
+        color: #000;
+        text-align: left;
+        font-size: 2.5vw;
+        line-height: 4vw;
+        margin-top: 0vw;
+    }
+    #containerAmora>#bloco03Amora h2 {
+        font-family: 'Roboto Slab', serif;
+        color: #000;
+        text-align: left;
+        font-size: 3.4vw;
+        line-height: 5.3vw;
+        margin-top: 13vw;
+        margin-bottom: 2vw;
+    }
+    #containerAmora>#bloco03Amora .accordion {
+        background-color: #eee;
+        color: #444;
+        cursor: pointer;
+        padding: 2vw;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 3vw;
+        transition: 0.4s;
+        font-family: 'Roboto Slab', serif;
+        font-weight: 900;
+    }
+    #containerAmora>#bloco03Amora .active,
+    .accordion:hover {
+        background-color: #ccc;
+    }
+    #containerAmora>#bloco03Amora .accordion:after {
+        content: '\002B';
+        color: #777;
+        font-weight: bold;
+        float: right;
+        margin-left: 5px;
+    }
+    #containerAmora>#bloco03Amora .active:after {
+        content: "\2212"
+    }
+    #containerAmora>#bloco03Amora .panel {
+        padding: 0 18px;
+        background-color: white;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+    }
+    #containerAmora>#bloco03Amora .botao {
+        width: 100%;
+        border-radius: 0.6vw;
+        padding: 4vw;
+        text-align: center;
+        font-family: 'Roboto Slab', serif;
+        color: #fff;
+        font-size: 4vw;
+        line-height: 0vw;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+        background-color: #430038;
+    }
+    #containerAmora>#bloco03Amora .botao:hover {
+        background-color: #00fe2a;
+        color: #000;
+    }
+    #containerAmora>#bloco03Amora h3 {
+        text-align: right;
+        font-family: 'Roboto Slab', serif;
+        font-weight: bold;
+        color: #430038;
+        font-size: 5vw;
+        line-height: 0vw;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+    }
+    #containerAmora>#bloco03Amora h3:before {
+        content: "";
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 1vw;
+        border-top: 1vw solid transparent;
+        border-bottom: 1vw solid transparent;
+        border-right: 1vw solid #430038;
+    }
+    #containerAmora>#bloco03Amora h3:hover {
+        opacity: 0.7
+    }
+    #containerAmora>#bloco03Amora .conteudo h2 {
+        text-align: center;
+        margin-top: 9vw;
+        margin-bottom: 7vw;
+    }
+    #containerAmora>#bloco03Amora .professorResponsavel {
+        margin-left: 40%;
+        padding-top: 13%;
+        color: #fff;
+        font-size: xx-small;
+    }
+    #containerAmora>#bloco03Amora .icones.icone01 {
+        width: 5vw;
+        height: 5vw;
+        background-image: url("../img/face-professor.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+        top: 34vw;
+        left: 30vw;
+    }
+    #containerAmora>#bloco03Amora .icones.icone02 {
+        width: 5vw;
+        height: 5vw;
+        background-image: url("../img/insta-professor.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+        top: 29.4vw;
+        left: 50vw;
+    }
+    #containerAmora>#bloco03Amora .icones.icone03 {
+        z-index: 1000;
+        width: 5vw;
+        height: 5.760vw;
+        background-image: url("../img/curriculo-professor.png");
+        background-size: 107%;
+        background-repeat: no-repeat;
+        position: relative;
+        top: 24.6vw;
+        left: 72vw;
+    }
+    #containerAmora>#bloco03Amora p.icones_textos {
+        font-size: 2vw;
+        line-height: 2vw;
+        margin-left: 5vw;
+        margin-top: 1.5vw;
+        font-family: 'Roboto Slab', serif;
+    }
+    #containerAmora>#bloco03Amora p.icones_textos02 {
+        font-size: 2vw;
+        line-height: 2vw;
+        margin-left: 5vw;
+        margin-top: 1.3vw;
+        font-family: 'Roboto Slab', serif;
+    }
+    #containerAmora>#bloco03Amora p.icones_textos03 {
+        z-index: 1000;
+        font-size: 2vw;
+        line-height: 2vw;
+        margin-left: 5vw;
+        margin-top: 1.2vw;
+        font-family: 'Roboto Slab', serif;
+    }
+    #containerAmora>.footerBloco03Amora {
+        background-image: url("../img/footer_bloco3.png");
+        background-repeat: no-repeat;
+        background-position: left bottom;
+        background-color: transparent;
+        background-size: contain;
+        height: 5%;
+    }
+    #containerAmora>#bloco04Amora {
+        height: 170.744vw;
+    }
+    #containerAmora>#bloco04Amora {
+        background-image: url("../img/amora_bloco04_mb.jpg");
+        background-repeat: repeat;
+        background-position: left top;
+        background-size: cover;
+    }
+    #containerAmora>#bloco04Amora {
+        color: #fff;
+    }
+    #containerAmora>#bloco04Amora h2 {
+        font-size: 4vw;
+        line-height: 8vw;
+        border-bottom: .03vw solid #fff;
+        color: #fff;
+        text-align: left;
+        margin-top: 9vw;
+        margin-bottom: 4vw;
+        font-family: 'Roboto Slab', serif;
+        font-weight: bold;
+    }
+    #containerAmora>#bloco04Amora a {
+        text-decoration: none;
+        line-height: 0vw;
+        font-size: 3.5vw;
+    }
+    #containerAmora>#bloco04Amora a:hover {
+        color: #90ff49;
+    }
+    #containerAmora>#bloco04Amora p {
+        color: #fff;
+        text-align: left;
+        font-family: 'Roboto', sans-serif;
+        font-size: 3.5vw;
+        line-height: 5vw;
+    }
+    #containerAmora>#bloco04Amora h3 {
+        margin-top: 8vw;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.8vw;
+    }
+    #containerAmora>#bloco04Amora a:hover {
+        color: #90ff49;
+    }
+    #containerAmora>#bloco04Amora .redesRodape {
+        margin-left: 6vw;
+        margin-top: -2vw;
+    }
+    #containerAmora>#bloco04Amora .logoFooter {
+        margin-top: 12vw;
+        width: 17vw;
+        height: 15vw;
+        background-image: url("../img/logo_amora_footer.png");
+        background-repeat: no-repeat;
+        background-position: left top;
+        background-color: transparent;
+        background-size: contain;
+    }
 }
 
-	@keyframes bounceInLeft {
-		from,
-		60%,
-		75%,
-		90%,
-		to {
-			-webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-			animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-		}
+@keyframes bounceInLeft {
+    from,
+    60%,
+    75%,
+    90%,
+    to {
+        -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+        animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(-3000px, 0, 0);
+        transform: translate3d(-3000px, 0, 0);
+    }
+    60% {
+        opacity: 1;
+        -webkit-transform: translate3d(25px, 0, 0);
+        transform: translate3d(25px, 0, 0);
+    }
+    75% {
+        -webkit-transform: translate3d(-10px, 0, 0);
+        transform: translate3d(-10px, 0, 0);
+    }
+    90% {
+        -webkit-transform: translate3d(5px, 0, 0);
+        transform: translate3d(5px, 0, 0);
+    }
+    to {}
+}
 
-		0% {
-			opacity: 0;
-			-webkit-transform: translate3d(-3000px, 0, 0);
-			transform: translate3d(-3000px, 0, 0);
-		}
+@keyframes pulse {
+    from {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+    50% {
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05);
+    }
+    to {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
 
-		60% {
-			opacity: 1;
-			-webkit-transform: translate3d(25px, 0, 0);
-			transform: translate3d(25px, 0, 0);
-		}
-
-		75% {
-			-webkit-transform: translate3d(-10px, 0, 0);
-			transform: translate3d(-10px, 0, 0);
-		}
-
-		90% {
-			-webkit-transform: translate3d(5px, 0, 0);
-			transform: translate3d(5px, 0, 0);
-		}
-
-		to {
-
-		}
-	}
-
-
-
-	@keyframes pulse {
-		from {
-			-webkit-transform: scale3d(1, 1, 1);
-			transform: scale3d(1, 1, 1);
-		}
-
-		50% {
-			-webkit-transform: scale3d(1.05, 1.05, 1.05);
-			transform: scale3d(1.05, 1.05, 1.05);
-		}
-
-		to {
-			-webkit-transform: scale3d(1, 1, 1);
-			transform: scale3d(1, 1, 1);
-		}
-	}
-
-	.pulse {
-		-webkit-animation-name: pulse;
-		animation-name: pulse;
-	}
+.pulse {
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+}

@@ -12,20 +12,6 @@ body {
         line-height: 4.688vw;
         font-weight: bold;
     }
-    /* #containerAmora > #bloco01Amora {height:33.385vw;}
-	#containerAmora > #bloco01Amora	{background-image:url("../img/amora_bloco01.jpg");background-repeat:repeat;background-position:left top;background-color:#FFFFFF;background-size:cover;}
-	#containerAmora > #bloco01Amora .logoAmora {margin-top:1vw; background-image:url("../img/logo_amora.png");background-repeat:repeat;background-position:left top;background-color:transparent;background-size:cover; width:17vw;height:16vw; animation:pulse 2s infinite;}
-	#containerAmora > #bloco01Amora .homemAmora {margin-top: 6vw; background-image: url(../img/homem.png);background-repeat: no-repeat;background-color: transparent;background-size: cover;width: 19.417vw;height: 33.75vw;animation: bounceInLeft 2s;margin-left: 12vw;margin-top: 4vw;position: absolute;}
-	#containerAmora > #bloco01Amora div.redesSociais{margin-top:3vw; float: left;}
-	#containerAmora > #bloco01Amora a {padding-left:0.9vw; float: left; text-decoration: none; }
-	#containerAmora > #bloco01Amora a:hover {opacity:0.77; }
-	#containerAmora > #bloco01Amora button {
-		margin-top:1vw; margin-left: 0vw; background-color:#570746; color:#fff;padding:1vw;width:15vw; height:3vw; border-radius:1vw;
-		font-size:1.2vw; text-align: center;font-family: 'Roboto', sans-serif; font-weight:900;line-height: 0vw;
-	}
-	#containerAmora > #bloco01Amora p { font-size:1.2vw; text-align: center;font-family: 'Roboto', sans-serif; font-weight:900;line-height: 0vw;}
-	#containerAmora > #bloco01Amora h4 { font-size:1.2vw; text-align: center;font-family: 'Roboto', sans-serif; }
- */
     #containerAmora>#bloco02Amora {
         height: 49.844vw;
     }
@@ -141,63 +127,6 @@ body {
         margin-top: -5vw;
         text-align: center;
     }
-    #containerAmora>#bloco04Amora {
-        height: 30vw;
-    }
-    #containerAmora>#bloco04Amora {
-        background-image: url("../img/amora_bloco04.jpg");
-        background-repeat: repeat;
-        background-position: left top;
-        background-size: cover;
-    }
-    #containerAmora>#bloco04Amora {
-        color: #fff;
-    }
-    #containerAmora>#bloco04Amora h2 {
-        font-size: 1.5vw;
-        line-height: 4vw;
-        border-bottom: .03vw solid #fff;
-        color: #fff;
-        text-align: left;
-        margin-top: 1vw;
-        margin-bottom: 2vw;
-        font-family: 'Roboto Slab', serif;
-        font-weight: bold;
-    }
-    #containerAmora>#bloco04Amora a {
-        margin-top: -0.6vw;
-        text-decoration: none;
-        line-height: 0vw;
-        font-size: 1.2vw;
-    }
-    #containerAmora>#bloco04Amora p {
-        color: #fff;
-        text-align: left;
-        font-family: 'Roboto', sans-serif;
-        font-size: 1.2vw;
-        line-height: 2vw;
-    }
-    #containerAmora>#bloco04Amora h3 {
-        margin-top: 5vw;
-        font-family: 'Roboto', sans-serif;
-        font-size: 0.8vw;
-    }
-    #containerAmora>#bloco04Amora .logoFooter {
-        margin-top: 3vw;
-        width: 5vw;
-        height: 5vw;
-        background-image: url("../img/logo_amora_footer.png");
-        background-repeat: no-repeat;
-        background-position: left top;
-        background-color: transparent;
-        background-size: contain;
-    }
-    #containerAmora>#bloco04Amora .redesRodape {
-        margin-left: 2vw;
-    }
-    #containerAmora>#bloco04Amora a:hover {
-        color: #90ff49;
-    }
     #containerAmora>#blocopdf {
         background-color: #fff;
         height: 15vw;
@@ -234,25 +163,6 @@ body {
 }
 
 @media screen and (max-width: 780px) {
-    /* 
-	#containerAmora > #bloco01Amora {height:114.359vw;}
-	#containerAmora > #bloco01Amora{background-image:url("../img/amora_bloco01_mb.jpg");background-repeat:repeat;background-position:left top;background-color:#FFFFFF;background-size:cover;}
-	#containerAmora > #bloco01Amora .logoAmora {margin-top:20vw;background-image: url(../img/logo_amora.png);background-repeat: no-repeat;background-position: left top;background-color: transparent;background-size: contain;width: 53vw;height: 54vw;animation: pulse 2s infinite;}
-	#containerAmora > #bloco01Amora .homemAmora { background-image: url(../img/homem.png);background-repeat: no-repeat;background-color: transparent;background-size: cover;width: 42.417vw;height: 75.75vw;animation: bounceInLeft 2s;margin-left: 1vw;margin-top: 48vw;position: absolute;}
-	#containerAmora > #bloco01Amora a {padding-left:0.9vw; float: left; text-decoration:none;}
-	#containerAmora > #bloco01Amora a:hover {opacity:0.77; }
-	#containerAmora > #bloco01Amora img {width:4vw; height:4vw;margin-top:8vw; }
-	#containerAmora > #bloco01Amora .you {width:6vw; height:4vw; }
-
-	#containerAmora > #bloco01Amora button {    margin-top: 1vw;
-    background-color:#570746; color:#fff; padding: 1vw; padding-bottom: 8vw; width: 27vw;height: 7vw; border-radius: 5vw;
-		font-size:3.2vw; text-align: center;font-family: 'Roboto', sans-serif; font-weight:900;
-  }
-
-
-	#containerAmora > #bloco01Amora p { margin-left: 1vw;font-size:3.2vw; text-align: center;font-family: 'Roboto', sans-serif; font-weight:900;line-height: 0vw;}
-	#containerAmora > #bloco01Amora h4 {margin: 1vw; font-size:4vw; text-align: center;font-family: 'Roboto', sans-serif; }
- */
     #containerAmora>#bloco02Amora {
         height: 210.897vw;
     }
@@ -368,63 +278,6 @@ body {
         font-family: 'Roboto Slab', serif;
         margin-top: -5vw;
         text-align: center;
-    }
-    #containerAmora>#bloco04Amora {
-        height: 170.744vw;
-    }
-    #containerAmora>#bloco04Amora {
-        background-image: url("../img/amora_bloco04_mb.jpg");
-        background-repeat: repeat;
-        background-position: left top;
-        background-size: cover;
-    }
-    #containerAmora>#bloco04Amora {
-        color: #fff;
-    }
-    #containerAmora>#bloco04Amora h2 {
-        font-size: 4vw;
-        line-height: 8vw;
-        border-bottom: .03vw solid #fff;
-        color: #fff;
-        text-align: left;
-        margin-top: 9vw;
-        margin-bottom: 4vw;
-        font-family: 'Roboto Slab', serif;
-        font-weight: bold;
-    }
-    #containerAmora>#bloco04Amora a {
-        text-decoration: none;
-        line-height: 0vw;
-        font-size: 3.5vw;
-    }
-    #containerAmora>#bloco04Amora a:hover {
-        color: #90ff49;
-    }
-    #containerAmora>#bloco04Amora .redesRodape {
-        margin-left: 6vw;
-        margin-top: -2vw;
-    }
-    #containerAmora>#bloco04Amora p {
-        color: #fff;
-        text-align: left;
-        font-family: 'Roboto', sans-serif;
-        font-size: 3.5vw;
-        line-height: 5vw;
-    }
-    #containerAmora>#bloco04Amora h3 {
-        margin-top: 5vw;
-        font-family: 'Roboto', sans-serif;
-        font-size: 1.8vw;
-    }
-    #containerAmora>#bloco04Amora .logoFooter {
-        margin-top: 12vw;
-        width: 17vw;
-        height: 16vw;
-        background-image: url("../img/logo_amora_footer.png");
-        background-repeat: no-repeat;
-        background-position: left top;
-        background-color: transparent;
-        background-size: contain;
     }
     #containerAmora>#blocopdf {
         background-color: #fff;

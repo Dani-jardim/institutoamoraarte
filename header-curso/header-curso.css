@@ -1,0 +1,53 @@
+@media screen and (min-width: 781px) {
+    #containerAmora>amora-header-curso>#tituloBloco03 {
+        padding-left: 35%;
+        padding-right: 10%;
+        height: 5%
+    }
+    #containerAmora>amora-header-curso>#tituloBloco03 h1 {
+        margin-top: 6vw;
+        font-family: 'Roboto Slab', serif;
+        font-weight: bolder;
+        font-size: x-large;
+        color: #770055;
+    }
+    #containerAmora>amora-header-curso>.professorResponsavel {
+        padding-left: 40%;
+        padding-top: 14%;
+        color: #fff;
+        background-image: url("../img/amora_coreografia-musical_bloco03.jpg");
+        background-repeat: no-repeat;
+        background-position: left top;
+        background-color: #FFFFFF;
+        background-size: cover;
+        height: 15vw;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    #containerAmora>amora-header-curso>#tituloBloco03 {
+        padding-left: 35%;
+        padding-right: 5%;
+        height: 4vw;
+    }
+    #containerAmora>amora-header-curso>#tituloBloco03 h1 {
+        margin-top: 2vw;
+        font-family: 'Roboto Slab', serif;
+        font-weight: bolder;
+        font-size: small;
+        color: #770055;
+    }
+    #containerAmora>amora-header-curso>.professorResponsavel {
+        padding-left: 40%;
+        padding-top: 12%;
+        color: #fff;
+        font-size: xx-small;
+        background-image: url("../img/amora_coreografia-musical_bloco03.jpg");
+        background-repeat: no-repeat;
+        background-position: left top;
+        background-color: #FFFFFF;
+        background-size: cover;
+        height: 15vw;
+        padding-right: 2%;
+    }
+}

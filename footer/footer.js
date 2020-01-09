@@ -31,6 +31,8 @@ const linkComIcone = (pagina) => {
 
 const footerHtml = () => {
     return `
+    <link rel="stylesheet" href="footer/footer-amora.css" type="text/css" />
+
     <div class="blocoAmora" id="bloco04Amora">
         <div class="institucional icol-desk-offset-03 icol-desk-05 icol-mb-offset-02 icol-mb-07">
             <h2>NOSSAS REDES</h2>

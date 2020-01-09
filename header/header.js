@@ -1,5 +1,7 @@
 const headerHtml = () => {
     return `
+    <link rel="stylesheet" href="header/header-amora.css" type="text/css" />
+
 <div class="blocoAmora" id="bloco01Amora">
 <div class="redesSociais icol-desk-offset-20 icol-desk-04 icol-mb-offset-09 icol-mb-03">
 <a href="https://www.instagram.com/abenaf_institutoamoraarte/" target="_blank"><img border="0" alt="instagram" src="img/icon_instagram.png" width="25" height="25"></a>

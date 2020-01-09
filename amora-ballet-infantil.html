@@ -44,96 +44,39 @@
                 <strong>Objetivo</strong><br> O objetivo do curso é desenvolver a coordenação motora e a expressão corporal com a base do balé. Ensinar uma diferente forma de expressão e comunicação, através do corpo. Incentivar a socialização e o trabalho
                 em grupo com os outros alunos.<br><br>
 
-                <strong>Critério de Avaliação</strong><br> Presença de 75% nas aulas<br/> Participação em aula<br/> Entrega das atividades<br/><br/>
+                <strong>Critério de Avaliação</strong><br> Presença de 75% nas aulas<br /> Participação em aula<br /> Entrega das atividades<br /><br />
 
                 <strong>Certificado</strong><br> O aluno terá o direito a receber o certificado desde que obtenha presença mínima de 75% do total de aulas e entregue 70% das atividades solicitadas Caso o aluno extrapole o prazo de entrega de alguma das
                 atividades, esta será aceita posteriormente apenas mediante a apresentação de atestado médico como justificativa.
-                <br/><br/>
+                <br /><br />
                 <strong>Aulas:</strong> Aos sábados das 9h30h às 11h30 <br>
                 <strong>Idade Mínima:</strong> 6 anos<br>
                 <strong>Idade Máxima:</strong> 10 anos<br>
                 <strong>Local:</strong> Escola Toufic Joulian
             </h2>
 
-            <!-- 	<div class="redesAmora icol-desk-offset-02 icol-desk-07">
-				<a href="https://www.facebook.com/jmauropontoarte" target="_blank"  class="icones icone01"> <p class="icones_textos">fran</p></a>
-				<a href="https://www.instagram.com/mauro.arte/" target="_blank"  class="icones icone02"> <p class="icones_textos02">fran</p></a>
-				<a href="img/icon_facebook.png" target="_blank" download  class="icones icone03"> <p class="icones_textos03">Currículo</p></a>
-			</div> -->
-
-
             <div class="icol-desk-offset-02 icol-desk-08 icol-mb-offset-01 icol-mb-10 conteudo">
-                <h2><strong>Conteúdo Programático</strong></h2>
 
-                <button class="accordion">Aula 1</button>
-                <div class="panel">
-                    <p>Apresentação e passos base: posições de pés.</p>
-                </div>
-
-                <button class="accordion">Aula 2</button>
-                <div class="panel">
-                    <p>Passos base: posições de braços</p>
-                </div>
-
-                <button class="accordion">Aula 3</button>
-                <div class="panel">
-                    <p>Passos base: movimentos de tronco</p>
-                </div>
-
-                <button class="accordion">Aula 4</button>
-                <div class="panel">
-                    <p>Passos base: pliés e battement tendu</p>
-                </div>
-
-                <button class="accordion">Aula 5</button>
-                <div class="panel">
-                    <p>Passos base: battement jete e grand battement</p>
-                </div>
-
-                <button class="accordion">Aula 6</button>
-                <div class="panel">
-                    <p>Passos base: Eleve e rond de jambe</p>
-                </div>
-
-                <button class="accordion">Aula 7</button>
-                <div class="panel">
-                    <p>Passos base: Saltos - Sotté e echappé</p>
-                </div>
-
-                <button class="accordion">Aula 8</button>
-                <div class="panel">
-                    <p>Passos base: Saltos - Changiment e pás de chat</p>
-                </div>
-
-                <button class="accordion">Aula 9</button>
-                <div class="panel">
-                    <p>Passos base: giros simples </p>
-                </div>
-
-                <button class="accordion">Aula 10</button>
-                <div class="panel">
-                    <p>Início do processo coreográfico</p>
-                </div>
-
-                <button class="accordion">Aula 11</button>
-                <div class="panel">
-                    <p>Ensaio</p>
-                </div>
-
-                <button class="accordion">Aula 12</button>
-                <div class="panel">
-                    <p>Ensaio</p>
-                </div>
-
-                <button class="accordion">Aula 13</button>
-                <div class="panel">
-                    <p>Ensaio</p>
-                </div>
-
-                <button class="accordion">Aula 14</button>
-                <div class="panel">
-                    <p>Ensaio</p>
-                </div>
+                <conteudo-programatico></conteudo-programatico>
+                <script>
+                    const listaDeAulas = [
+                        'Apresentação e passos base: posições de pés.',
+                        'Passos base: posições de braços',
+                        'Passos base: movimentos de tronco',
+                        'Passos base: pliés e battement tendu',
+                        'Passos base: battement jete e grand battement',
+                        'Passos base: Eleve e rond de jambe',
+                        'Passos base: Saltos - Sotté e echappé',
+                        'Passos base: Saltos - Changement e pas de chat',
+                        'Passos base: giros simples ',
+                        'Início do processo coreográfico',
+                        'Ensaio',
+                        'Ensaio',
+                        'Ensaio',
+                        'Ensaio'
+                    ];
+                </script>
+                <script src="conteudo-programatico/conteudo-programatico.js"></script>
 
                 <!-- <a href="https://inscricoes-amora-arte.herokuapp.com/pessoas?curso=Street+Jazz"><div class="botao icol-desk-offset-00 icol-desk-24 icol-mb-offset-00 icol-mb-10">Inscreva-se</div></a> -->
 
@@ -141,22 +84,6 @@
                     <h3 class="icol-desk-offset-01 icol-desk-20">conheça outros cursos</h3>
                 </a>
 
-                <script>
-                    var acc = document.getElementsByClassName("accordion");
-                    var i;
-
-                    for (i = 0; i < acc.length; i++) {
-                        acc[i].addEventListener("click", function() {
-                            this.classList.toggle("active");
-                            var panel = this.nextElementSibling;
-                            if (panel.style.maxHeight) {
-                                panel.style.maxHeight = null;
-                            } else {
-                                panel.style.maxHeight = panel.scrollHeight + "px";
-                            }
-                        });
-                    }
-                </script>
             </div>
 
 

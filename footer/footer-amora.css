@@ -60,19 +60,19 @@
 }
 
 @media screen and (max-width: 780px) {
-    #containerAmora>amora-footer>amora-footer>#bloco04Amora {
+    #containerAmora>amora-footer>#bloco04Amora {
         height: 170.744vw;
     }
-    #containerAmora>amora-footer>amora-footer>#bloco04Amora {
+    #containerAmora>amora-footer>#bloco04Amora {
         background-image: url("amora_bloco04_mb.jpg");
         background-repeat: repeat;
         background-position: left top;
         background-size: cover;
     }
-    #containerAmora>amora-footer>amora-footer>#bloco04Amora {
+    #containerAmora>amora-footer>#bloco04Amora {
         color: #fff;
     }
-    #containerAmora>amora-footer>amora-footer>#bloco04Amora h2 {
+    #containerAmora>amora-footer>#bloco04Amora h2 {
         font-size: 4vw;
         line-height: 8vw;
         border-bottom: .03vw solid #fff;
@@ -83,31 +83,31 @@
         font-family: 'Roboto Slab', serif;
         font-weight: bold;
     }
-    #containerAmora>amora-footer>amora-footer>#bloco04Amora a {
+    #containerAmora>amora-footer>#bloco04Amora a {
         text-decoration: none;
         line-height: 0vw;
         font-size: 3.5vw;
     }
-    #containerAmora>amora-footer>amora-footer>#bloco04Amora a:hover {
+    #containerAmora>amora-footer>#bloco04Amora a:hover {
         color: #90ff49;
     }
-    #containerAmora>amora-footer>amora-footer>#bloco04Amora .redesRodape {
+    #containerAmora>amora-footer>#bloco04Amora .redesRodape {
         margin-left: 30px;
         margin-top: -5px;
     }
-    #containerAmora>amora-footer>amora-footer>#bloco04Amora p {
+    #containerAmora>amora-footer>#bloco04Amora p {
         color: #fff;
         text-align: left;
         font-family: 'Roboto', sans-serif;
         font-size: 3.5vw;
         line-height: 5vw;
     }
-    #containerAmora>amora-footer>amora-footer>#bloco04Amora h3 {
+    #containerAmora>amora-footer>#bloco04Amora h3 {
         margin-top: 5vw;
         font-family: 'Roboto', sans-serif;
         font-size: 1.8vw;
     }
-    #containerAmora>amora-footer>amora-footer>#bloco04Amora .logoFooter {
+    #containerAmora>amora-footer>#bloco04Amora .logoFooter {
         margin-top: 12vw;
         width: 17vw;
         height: 16vw;

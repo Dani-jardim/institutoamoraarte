@@ -51,13 +51,13 @@ body {
     #containerAmora>#bloco03Amora {
         height: 140.208vw;
     }
-    #containerAmora>#bloco03Amora {
+    /* #containerAmora>#bloco03Amora {
         background-image: url("../img/amora_teatro_bloco03.jpg");
         background-repeat: repeat;
         background-position: left top;
         background-color: #FFFFFF;
         background-size: cover;
-    }
+    } */
     #containerAmora>#bloco03Amora p {
         padding: 1vw;
         font-family: 'Roboto Slab', serif;
@@ -73,7 +73,7 @@ body {
         text-align: left;
         font-size: 1.4vw;
         line-height: 2.2vw;
-        margin-top: 27vw;
+        /* margin-top: 27vw; */
         margin-bottom: 2vw;
     }
     #containerAmora>#bloco03Amora .accordion {
@@ -255,13 +255,13 @@ body {
     #containerAmora>#bloco03Amora {
         height: 439.026vw;
     }
-    #containerAmora>#bloco03Amora {
+    /* #containerAmora>#bloco03Amora {
         background-image: url("../img/amora_teatro_bloco03_mb.jpg");
         background-repeat: repeat;
         background-position: left top;
         background-color: #FFFFFF;
         background-size: cover;
-    }
+    } */
     #containerAmora>#bloco03Amora p {
         padding: 1vw;
         font-family: 'Roboto Slab', serif;
@@ -277,7 +277,7 @@ body {
         text-align: left;
         font-size: 3.4vw;
         line-height: 5.3vw;
-        margin-top: 51vw;
+        /* margin-top: 51vw; */
         margin-bottom: 2vw;
     }
     #containerAmora>#bloco03Amora .accordion {

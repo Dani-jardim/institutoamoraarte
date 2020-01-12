@@ -24,6 +24,14 @@
 
         <div class="blocoAmora" id="bloco02Amora"></div>
 
+        <script>
+            var professores = "Professora Responsável: Rosa Gregório"
+            var curso = "Fotografia"
+            var backgroundImage = "./img/amora_fotografia_bloco03-2020.jpg"
+        </script>
+        <amora-header-curso></amora-header-curso>
+        <script src="header-curso/header-curso.js"></script>
+
         <div class="blocoAmora" id="bloco03Amora">
 
             <!-- 	<a href="https://www.facebook.com/jmauropontoarte" target="_blank"  class="icones icone01"> <p class="icones_textos">mauro.arte</p></a>
@@ -40,7 +48,8 @@
 
                 <strong>Público Alvo:</strong><br> Pessoas a partir de 16 anos que tenham interesse em desenvolver olhar fotográfico e se expressar visualmente<br><br>
 
-                <strong>Pré Requisito</strong><br> Ter no mínimo 16 anos e sua própria <a href="https://fotografiadicas.com.br/o-que-e-uma-dslr/" target="_blank"><strong>câmera DSLR</strong></a><br><br>
+                <strong>Pré Requisito</strong><br> Ter no mínimo 16 anos e sua própria <a href="https://fotografiadicas.com.br/o-que-e-uma-dslr/" target="_blank"><strong>câmera
+                        DSLR</strong></a><br><br>
 
                 <strong>Requisitos para receber o certificado:</strong><br> O aluno terá o direito a receber o certificado desde que obtenha presença mínima de 75% do total de aulas e atinja a nota mínima de 7/10. Caso o aluno extrapole o prazo de entrega
                 de alguma das atividades, esta será aceita posteriormente apenas mediante a apresentação de atestado de trabalho ou atestado médico como justificativa. <br><br>
@@ -52,91 +61,33 @@
                 <strong>Idade Mínima:</strong> 16 anos<br>
                 <strong>Local:</strong> Escola Toufic Joulian<br><br>
 
-                <a href="pdf/ementa-fotografia-I.pdf" target="_blank"><strong>Baixar ementa completa</strong></a>
+                <!-- <a href="pdf/ementa-fotografia-I.pdf" target="_blank"><strong>Baixar ementa completa</strong></a> -->
             </h2>
 
+
             <div class="icol-desk-offset-02 icol-desk-08 icol-mb-offset-02 icol-mb-08 conteudo">
-                <h2><strong>Conteúdo Programático</strong></h2>
-
-                <button class="accordion">Aula 1</button>
-                <div class="panel">
-                    <p>História da Fotografia</p>
-                </div>
-
-                <button class="accordion">Aula 2</button>
-                <div class="panel">
-                    <p>Como funciona? I (diafragma, ISO, Obturador)</p>
-                </div>
-
-                <button class="accordion">Aula 3</button>
-                <div class="panel">
-                    <p>Como funciona? II (fotometria, objetivas, balanço de branco)</p>
-                </div>
-
-                <button class="accordion">Aula 4</button>
-                <div class="panel">
-                    <p>Saída Fotográfica</p>
-                </div>
-
-                <button class="accordion">Aula 5</button>
-                <div class="panel">
-                    <p>Composição visual I</p>
-                </div>
-
-                <button class="accordion">Aula 6</button>
-                <div class="panel">
-                    <p>Composição visual II</p>
-                </div>
-
-                <button class="accordion">Aula 7</button>
-                <div class="panel">
-                    <p>Saída fotográfica</p>
-                </div>
-
-                <button class="accordion">Aula 8</button>
-                <div class="panel">
-                    <p>Fluxo digital de arquivos fotográfico</p>
-                </div>
-
-                <button class="accordion">Aula 9</button>
-                <div class="panel">
-                    <p>Lightroom</p>
-                </div>
-
-                <button class="accordion">Aula 10</button>
-                <div class="panel">
-                    <p>Flash Speedlitgh</p>
-                </div>
-
-                <button class="accordion">Aula 11</button>
-                <div class="panel">
-                    <p>Saída fotográfica</p>
-                </div>
-
-                <button class="accordion">Aula 12</button>
-                <div class="panel">
-                    <p>Estúdio fotográfico</p>
-                </div>
-
-                <button class="accordion">Aula 13</button>
-                <div class="panel">
-                    <p>Análise da produção em estúdio</p>
-                </div>
-
-                <button class="accordion">Aula 14</button>
-                <div class="panel">
-                    <p>Saída fotográfica</p>
-                </div>
-
-                <button class="accordion">Aula 15 - BÔNUS</button>
-                <div class="panel">
-                    <p></p>
-                </div>
-
-                <button class="accordion">Aula 16 - BÔNUS</button>
-                <div class="panel">
-                    <p></p>
-                </div>
+                <conteudo-programatico></conteudo-programatico>
+                <script>
+                    const listaDeAulas = [
+                        'História da Fotografia',
+                        'Como funciona? I (diafragma, ISO, Obturador)',
+                        'Como funciona? II (fotometria, objetivas, balanço de branco)',
+                        'Saída Fotográfica',
+                        'Composição visual I',
+                        'Composição visual II',
+                        'Saída fotográfica',
+                        'Fluxo digital de arquivos fotográfico',
+                        'Lightroom',
+                        'Flash Speedlight',
+                        'Saída fotográfica',
+                        'Estúdio fotográfico',
+                        'Análise da produção em estúdio',
+                        'Saída fotográfica',
+                        'Bônus',
+                        'Bônus'
+                    ];
+                </script>
+                <script src="conteudo-programatico/conteudo-programatico.js"></script>
 
                 <!-- <a href="https://inscricoes-amora-arte.herokuapp.com/pessoas?curso=Fotografia"><div class="botao icol-desk-offset-00 icol-desk-24 icol-mb-offset-00 icol-mb-10">Inscreva-se</div></a> -->
 
@@ -145,7 +96,7 @@
                 </a>
 
 
-                <script>
+                <!-- <script>
                     var acc = document.getElementsByClassName("accordion");
                     var i;
 
@@ -160,7 +111,7 @@
                             }
                         });
                     }
-                </script>
+                </script> -->
             </div>
 
 

@@ -3,6 +3,11 @@ body {
     padding: 0
 }
 
+
+/* #containerAmora>amora-header-curso>.professorResponsavel {
+    background-image: url("../img/amora_coreografia-musical_bloco03.jpg");
+} */
+
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,900');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
 @media screen and (min-width: 781px) {

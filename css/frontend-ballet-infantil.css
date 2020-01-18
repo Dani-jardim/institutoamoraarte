@@ -132,8 +132,7 @@ body {
         color: #fff;
         font-size: 1.4vw;
         line-height: 2.2vw;
-        margin-top: 28vw;
-        margin-bottom: 2vw;
+        margin-top: 5vw;
         background-color: #430038;
     }
     #containerAmora>#bloco03Amora .botao:hover {
@@ -147,7 +146,7 @@ body {
         color: #430038;
         font-size: 2vw;
         line-height: 0vw;
-        margin-top: 25vw;
+        margin-top: 15vw;
         margin-bottom: 2vw;
     }
     #containerAmora>#bloco03Amora h3:before {

@@ -45,7 +45,8 @@ const footerHtml = () => {
             <h2>NOSSOS CONTATOS</h2>
             <p> 
                 Rua Perola do Oeste, 371 <br>
-                Jd. Ana Estela Carapicuíba<br> contato@institutoamora.art.br <br>
+                Jd. Ana Estela Carapicuíba<br> <br/>
+                <a href="mailto:inscricoes@institutoamora.art.br">inscricoes@institutoamora.art.br</a> <br>
             </p>
         </div>
         <div class="institucional icol-desk-offset-02 icol-desk-05 icol-mb-offset-02 icol-mb-07">
